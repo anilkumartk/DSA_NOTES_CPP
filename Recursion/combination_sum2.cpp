@@ -6,7 +6,7 @@ TC - O(n*logn + k∗2^n) ->k-no of valid answers
 SC - O(n+k∗n)
 
 
-If we are using for loop inside recursion then we can just temp array to ans. No need to check ind==n condition
+If we are using for loop inside recursion then we can just add temp array to ans array. No need to check ind==n condition
 
 
 */
