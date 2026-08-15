@@ -6,7 +6,7 @@ TC - O(n*logn + k∗2^n) ->k-no of valid answers
 SC - O(n+k∗n)
 
 
-
+If we are using for loop inside recursion then we can just temp array to ans. No need to check ind==n condition
 
 
 */
@@ -28,7 +28,7 @@ public:
         if(tar<0)return;  //invalid case prune search or return
        
         for(int ind=i;ind<n;ind++){
-            if(ind>i && nums[ind]==nums[ind-1])continue;
+            if(ind>i && nums[ind]==nums[ind-1])continue;    //skip duplicates
             if(nums[ind]>tar)break;                 //invalid case exit from loop
             dp.push_back(nums[ind]);                //insert to temp array
             solve(ind+1,n,dp,nums,tar-nums[ind]);  // take
