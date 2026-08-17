@@ -11,7 +11,7 @@ In for loop we don't need to call not take recursion call. for will handle it.
 */
 
 
-#incluse<bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
 class Solution {
