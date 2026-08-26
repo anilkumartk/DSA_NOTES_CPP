@@ -1,5 +1,5 @@
 /*
-LeetCode - 37.Combination Sum
+LeetCode - 37. Sudoku Solver
 
 Approach - Recursion & Backtracking
 TC - O(9 ^ n) -> n is number of empty cells
