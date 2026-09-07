@@ -1,6 +1,7 @@
 /*
 
 CSES - Tower of Hanoi
+Approach - Recursion 
 TC - O(2 ^ n)
 SC - O(2 ^ n)
 
