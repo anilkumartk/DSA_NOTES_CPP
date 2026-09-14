@@ -5,7 +5,7 @@ TC - O(n * log n)
 SC - O(n)
 
 Divide array based on pivot index. In partition method swap every small element and atlast swap arr[high],arr[pi].
-
+At every call patition element will go its correct position in sorted order.
 */
 
 #include<bits/stdc++.h>
